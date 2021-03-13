@@ -1,0 +1,25 @@
+{
+  "name": "pagseguro.js",
+  "version": "0.2.0",
+  "description": "Integra a API de pagamentos online do Pagseguro",
+  "homepage": "https://github.com/gustavopaes/pagseguro.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gustavopaes/pagseguro.js.git"
+  },
+  "author": {
+    "name": "Gustavo Paes",
+    "email": "gustavo.paes@gmail.com",
+    "url": "https://github.com/gustavopaes/"
+  },
+  "dependencies": {
+    "request": "2.88.0",
+    "xml2js": "0.4.x"
+  },
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "engines": {
+    "node": ">=0.10.1"
+  }
+}
